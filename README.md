@@ -15,10 +15,10 @@
 
 ```shell
 # 以后台方式运行容器，指定SSH和VNC端口，默认用户root，密码为123456
-docker run -itd --privileged -p 22:22 -p 5901:5901 ericju/ubuntu-desktop-i686-elf-gcc:1.0
+docker run -itd --privileged -p 22:22 -p 5901:5901 ericju/ubuntu-desktop-i686-elf-gcc:1.1
 
 # 完整命令（暴露所有端口）
-docker run -itd --privileged -p 22:22 -p 5900:5900 -p 5901:5901 -p 6000:6000 -p 6001:6001 -p 6002:6002 -p 6003:6003 -p 6004:6004 -p 6005:6005 -p 6006:6006 -p 6007:6007 -p 6008:6008 -p 6009:6009 ericju/ubuntu-desktop-i686-elf-gcc:1.0
+docker run -itd --privileged -p 22:22 -p 5900:5900 -p 5901:5901 -p 6000:6000 -p 6001:6001 -p 6002:6002 -p 6003:6003 -p 6004:6004 -p 6005:6005 -p 6006:6006 -p 6007:6007 -p 6008:6008 -p 6009:6009 ericju/ubuntu-desktop-i686-elf-gcc:1.1
 ```
 
 
